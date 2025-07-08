@@ -13,6 +13,11 @@ nav {
     margin: 50px 200px;
 }
 
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 .nav-title {
     font-weight: 800;
     font-size: 45px;
@@ -83,3 +88,57 @@ nav ul {
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+.secondary-bg{
+    background-color: #fff8f3;
+}
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.item-description{
+    font-weight: 600;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.skill{
+    /* border: 2px solid black; */
+    padding: 30px; 
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
